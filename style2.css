@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+width: 100vw;
+height: 100vh;
+/* padding,marging y font size siempre en rems */
+display: flex;
+align-items: center;
+justify-content: center;
+}
+body{
+    
+    background-image: url(Imageeeens.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#contenedor{
+
+    height: 470px;
+    width: 800px;
+    position: relative;
+}
+
+#izq{
+    height: 470px;
+    width: 270px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+}
+#titulo{
+    
+    height: 30px;
+    width: 245px;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+#titulo2{
+ 
+    height: 110px;
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+    
+}
+#asset{
+  
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  right: 35%;
+}
+h1{
+    position: absolute;
+    bottom: 10px;
+    padding-left: 4px;
+}
+form{
+    padding-top: 20px;
+    height: 220px;
+    width: 230px;
+    margin: auto;
+    margin-top: 10px;
+
+}
+#right{
+    
+    height: 470px;
+    width: 529px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 270px;
+}
+
+#magen{
+height: 470px;
+width: 523px;
+position: relative;
+padding: 0;
+
+    
+}
+#logotit{
+    position: relative;
+    height: 20px;
+    width: 20px;
+    float: left;
+    bottom: 17px;
+    right: 12px;
+}
+#Universidad{
+    font-size: 12px;
+    float: right;
+    padding-top: 6px;
+}
+.boxes{
+    padding-left: 10px;
+    width: 13rem;
+    height: 1.8rem;
+    margin: 6.5px;
+}
+#boton{
+    height: 1.6rem;
+    width: 5.5rem;
+    border-radius: 10px;
+    font-size: 10px;
+    margin-top: 8px;
+    margin-left: 6px;
+    border: none;
+    background-color: rgb(151, 176, 222);
+}
+#asd{
+    font-size: 10px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+}
